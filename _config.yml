@@ -67,8 +67,11 @@ mermaid:
 heading_anchors: true
 
 # Aux links for the upper right navigation
+# aux_links:
+#   "AWS, Terraform, IaC, k8s, DevOps":
+#     - "//github.com/suminhong/honglab"
 aux_links:
-  "AWS, Terraform, IaC, k8s, DevOps":
+  "Just the Docs on GitHub":
     - "//github.com/suminhong/honglab"
 
 # Makes Aux links open in a new tab. Default is false
@@ -107,7 +110,7 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: light
+color_scheme: nil
 
 callouts_level: quiet # or loud
 callouts:
@@ -128,8 +131,8 @@ callouts:
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-ga_tracking: UA-2709176-10
-ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+# ga_tracking: UA-2709176-10
+# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 plugins:
   - jekyll-seo-tag
