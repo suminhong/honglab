@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Test
 nav_order: 0
 description: "First Page"
 permalink: /
